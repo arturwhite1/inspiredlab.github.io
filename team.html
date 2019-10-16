@@ -18,136 +18,32 @@ permalink: /team/
         </div>
     </div>
 </section>
-    <!-- Portfolio Start -->
-<section id="portfolio-work">
-<div class="container">
-        <div class="row-eq-height">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-            <h2>Casey</h2>
-          <p>My name is Casey Walters, I am a graduate student studying Management Information Systems at Northern Illinois University. In May, I graduated undergrad with majors in Marketing and Operations Management & Information Systems, then immediately launched into my masters. As an InspirEd lab intern, I have had the opportunity to act as the product owner of the OM&IS Gazette, and work with the rest of the InspirEd lab team on various other projects. In the future, I hope to become a Product Owner at a company that uses an Agile methodology to work on IT projects and products. 
-          </p>
-        </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="profile" style="border: 0px;">
-          <img src="{{ site.baseurl }}/img/team/Casey.jpg" alt="Img">
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div><!-- Casey close --><br>
 
-    <div class="row-eq-height">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-            <h2>Chris</h2>
-          <p>I have recently completed my Scrum Master intership at Discover and I am an OM&IS major at Northern Illinois University. 
-            I joined InspirEd Lab in Summer 2019 studying the growth of Agile practice in Information Technology Education.
-            I love to share my passion for teamwork development and Agile, be it through outreach, or teaching. 
-            I’ve been a Scrum Master for the Discover code_orange for over 1 year, and I love that I get to learn new things 
-            every week by helping other members working at their best to solve their coding challenges!
-            I am now working on developing our brand new course set to launch in 2020 (stay tuned…). </p>
+<!-- Team Start -->
+<section id="testimonial">
+  <div class="container">
+    <div class="col-md-6">
+      {% if site.data.people.size > 0 %}
+      <div class="testimonial-carousel">
+        <div id="testimonial-slider" class="owl-carousel owl-theme">
+          {% for tm in site.data.people %}
+          <div>
+              <img src="{{ site.baseurl }}/img/cotation.png" alt="IMG">
+              <p>{{ tm.testimonial }}</p>
+              <div class="user">
+                <img src="{{ site.baseurl }}/{{ tm.image }}" alt="People">
+                <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+              </div>
+          </div>
+          {% endfor %}
         </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-         <div class="profile" style="border: 0px;">
-          <img src="{{ site.baseurl }}/img/team/Chris.jpg" alt="Img" border="0">
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div><!-- Chris close --><br>
-    
-            <div class="row-eq-height">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-            <h2>Steve</h2>
-          <p>I am a senion in OM&IS student from Rockford, Illinois where I research 
-            how Jekyll and GitHub pages can be leveraged to develop an open source Agile classroom. 
-            I have used R on a range of projects, from analysing employee satisfaction data for a 
-            private equity firm to mining linguistic transcripts for speech patterns. 
-            Through my own work, I have gained experience in using R for statistical modelling, mapping, 
-            data manipulation and R-markdown to make reproducible scripts.  
-            I’m very interested in the role of open-source and collaborative technology in academia. 
-            </a></p>
-        </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="profile" style="border: 0px;">
-          <img src="{{ site.baseurl }}/img/team/labbie.png" alt="Img">
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div><!-- Steve close --><br>
- 
-
-    <div class="row-eq-height">
-          <div class="col-md-7 col-sm-12">
-        <div class="block">
-            <h2>Aleena </h2>
-          <p>I am a Computer Science and Business major interested in all aspects of Data Science. 
-            .</p>
-        </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="profile" style="border: 0px;">
-          <img src="{{ site.baseurl }}/img/team/labbie.png" alt="Img"/>
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div><!-- Aleena close --><br>
-  
-
-    <div class="row-eq-height">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-            <h2>Zayra</h2>
-          <p>I'm in my 4th (and last!) year of my undergraduate degree. 
-            I was introduced to InspirEd Lab in the Fall 19, and since then I have been on the team prducing the OMIS Gazette.
-              I am fascinated by what Jekyll and GitHub can produce with a simple set of Markdown and scripts. 
-              It has been a love-hate relationship (but mostly love) and I want to show as many people as possible 
-              that coding is not as abstract or inaccessible as it looks!</p>
-        </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="profile">
-          <img src="{{ site.baseurl }}/img/team/labbie.png" alt="Img">
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div> <!-- Ze close-->
-<p></p>
-<p></p>
-
-   <div class="row-eq-height">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-            <h2>Cody</h2>
-          <p>I'm an undergraduate at NIU in OM&IS in my first year at InspirEd Lab.
-            This is a unique opportunity for students across the department to broaden their knowledge and 
-            advance their field through working at the intersection of Experiential Learning and Informatics. 
-            I am excited to be part of this journey!</p>
-        </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="profile">
-          <img src="{{ site.baseurl }}/img/team/labbie.png" alt="Img">
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div> 
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>     
 
 
-      
-   <div class="row-eq-height">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-            <h2>Federico</h2>
-          <p>I am the proud founder of the InspirEd Lab, and a lecturer in the OM&IS Department at Northern Illinois University.  
-             I am particularly interested in how to encourage the development of Agility skills to respond to the 
-             changing nature of the field.    
-        </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="profile" style="border: 0px;">
-          <img src="{{ site.baseurl }}/img/team/Fede.jpg" alt="Img">
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div><!-- Federico close --><br>
-</section>
 
 <!-- Call to action Start -->
 <section id="call-to-action">
