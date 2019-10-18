@@ -23,30 +23,28 @@ permalink: /team/
 <section id="testimonial">
   <div class="container">
     <div class="row">
-        <div class="col-md-6">
-          {% if site.data.people.size > 0 %}
-          <div class="testimonial-carousel">
-            <div id="testimonial-slider" class="owl-carousel owl-theme">
-              {% for tm in site.data.people %}
-              <div>
-                  <div class="user">
-                      <img src="{{ site.baseurl }}/{{ tm.image }}" alt="People">
-                      <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
-                    </div>
-                  <img src="{{ site.baseurl }}/img/cotation.png" alt="IMG">
-                  <p>{{ tm.testimonial }}</p>
-    
+        <div class="col-md-12 col-sm-12">
+          <div class="block">
+              {% if site.data.people.size > 0 %}
+              <div class="testimonial-carousel">
+                <div id="testimonial-slider" class="owl-carousel owl-theme">
+                  {% for tm in site.data.people %}
+                  <div>
+                      <div class="user">
+                          <img src="{{ site.baseurl }}/{{ tm.image }}" alt="People">
+                          <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                        </div>
+                      <img src="{{ site.baseurl }}/img/cotation.png" alt="IMG">
+                      <p>{{ tm.testimonial }}</p>
+        
+                  </div>
+                  {% endfor %}
+                </div>
+                {% endif %}
               </div>
-              {% endfor %}
-            </div>
-            {% endif %}
           </div>
         </div>
-        <div class="col-md-5 col-sm-12">
-            <div class="block">
-              <img src="{{ site.baseurl }} /img/wrapper-img.png" alt="Img">
-            </div>
-          </div><!-- .col-md-5 close -->
+ 
     </div>
   </div>
 </section>     
