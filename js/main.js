@@ -11,6 +11,12 @@ $(document).ready(function(){
 	});
 
 
+	$("#team-slider").owlCarousel({
+	    paginationSpeed : 1500,      
+	    singleItem:true,
+	    autoPlay: 3000,
+	});
+
 
 
 	$("#clients-logo").owlCarousel({
