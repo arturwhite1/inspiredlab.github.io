@@ -114,11 +114,25 @@ permalink: /join/
           </dl>         
         </div>
 
-        <script>
-            <!--
-            document.write(unescape("%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20onmouseover%3D%22moveIt%28this%29%22%20onclick%3D%22backIt%28this%29%22class%3D%22btn%20btn-move%22%3EApply%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cscript%3E%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20function%20moveIt%28button%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20var%20xcoords%20%3D%20new%20Array%2870%2C100%2C150%2C175%2C225%2C260%2C300%2C320%2C350%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20var%20ycoords%20%3D%20new%20Array%2830%2C40%2C50%2C60%2C70%2C80%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20var%20x%20%3D%20xcoords%5BMath.floor%28%28Math.random%28%29*10%29%29%5D%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20var%20y%20%3D%20ycoords%5BMath.floor%28%28Math.random%28%29*10%29%29%5D%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20button.style.left%20%3D%20x%20+%20%22px%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20button.style.top%20%3D%20y%20+%20%22px%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20function%20backIt%28button%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20button.style.left%20%3D%20%2210px%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20button.style.top%20%3D%20%220px%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/script%3E"));
-            //-->
-        </script>
+              <span onmouseover="moveIt(this)" onclick="backIt(this)"class="btn btn-move">Apply</span>
+                      
+                        <script>
+            
+                            function moveIt(button) {
+                              var xcoords = new Array(70,100,150,175,225,260,300,320,350);
+                              var ycoords = new Array(30,40,50,60,70,80);
+                              var x = xcoords[Math.floor((Math.random()*10))];
+                              var y = ycoords[Math.floor((Math.random()*10))];
+                              button.style.left = x + "px";
+                              button.style.top = y + "px"
+                            }
+            
+                            function backIt(button) {
+                              button.style.left = "10px";
+                              button.style.top = "0px"
+                            }
+                        </script>"));
+  
           
       </div>
     </div>
