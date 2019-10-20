@@ -14,7 +14,7 @@ $(document).ready(function(){
 	$("#team-slider").owlCarousel({
 	    paginationSpeed : 1500,      
 	    singleItem:true,
-	    autoPlay: 3000,
+	    autoPlay: 6000,
 	});
 
 
@@ -51,6 +51,19 @@ $(document).ready(function(){
         time: 1000
     });
 
+	function moveIt(button) {
+		var xcoords = new Array(70,100,150,175,225,260,300,320,350);
+		var ycoords = new Array(30,40,50,60,70,80);
+		var x = xcoords[Math.floor((Math.random()*10))];
+		var y = ycoords[Math.floor((Math.random()*10))];
+		button.style.left = x + "px";
+		button.style.top = y + "px"
+	  }
+
+	  function backIt(button) {
+		button.style.left = "10px";
+		button.style.top = "0px"
+	  }
 
 });
 
