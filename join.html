@@ -115,8 +115,11 @@ permalink: /join/
         </div>
             <p id="tags"></p>
             <span id="elusive" onmouseover="moveIt(this)" onclick="backIt(this)" ondblclick="popIt(this)" class="btn btn-move">Apply</span>
-            <div id="apply" class="cui-embed" style="display: none; height: 400px; width: 100%;" data-cui-uid="o47nwe" data-cui-mode="widget" data-cui-pill-button-color="#0000FF"></div>
-            <script src="https://public-assets.typeform.com/confab/embed.js" async></script>
+
+            <div id="apply" class="cui-embed" style="display:none; height: 400px; width: 100%;" data-cui-uid="o47nwe" 
+              data-cui-avatar="https://images.typeform.com/images/p4yeHNVCD5eA" data-cui-mode="widget" data-cui-pill-button-color="#0000FF">
+            </div><script src="https://public-assets.typeform.com/confab/embed.js" async></script>
+
 
       
               <script>
@@ -127,7 +130,8 @@ permalink: /join/
                                 "Try harder",
                                 "Double your effort",
                                 "Don't hate, iterate",
-                                "We like you already!"
+                                "We like you already!",
+                                "We never quit"
                               ];
                     var xcoords = new Array(50,100,150,200,250,300,350);
                     var x = Math.floor((Math.random()*7));
@@ -136,11 +140,13 @@ permalink: /join/
                   }
   
                   function backIt(button) {
-                    var tags = ["It is about problem solving",
+                    var tags = [
+                                "It is about problem solving",
                                 "Maybe one more time", 
                                 "Double your effort",
                                 "Almost doesn't count",
-                                "Insist to persist"
+                                "Insist to persist",
+                                "Have you tried with a smile?"
                               ];
                     var xcoords = new Array(100,150,200,250,300);
                     var x = Math.floor((Math.random()*6));
@@ -149,12 +155,11 @@ permalink: /join/
                   }
                   
                   function popIt(button) {
-                    alert("nice!");
                     var t = document.getElementById("tags");
-                    var b = document.getElementById("elusive");
+                    //var b = document.getElementById("elusive");
                     var f = document.getElementById("apply");
                     t.style.display = "none";
-                    b.style.display = "none";
+                    button.style.display = "none";
                     f.style.display = "block";
                   }
 
