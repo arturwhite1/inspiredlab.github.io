@@ -113,7 +113,7 @@ permalink: /join/
 
           </dl>         
         </div>
-            <p id="tags"></p>
+            <p id="tags" style="color:red; font-size:30px; "></p>
             <span id="elusive" onmouseover="moveIt(this)" onclick="backIt(this)" ondblclick="popIt(this)" class="btn btn-move">Apply</span>
 
             <div id="apply" class="cui-embed" style="display:none; height: 400px; width: 100%;" data-cui-uid="o47nwe" 
@@ -125,13 +125,13 @@ permalink: /join/
               <script>
   
                   function moveIt(button) {
-                    var tags = ["Please try again", 
+                    var tags = ["Please try again.", 
                                 "Are you sure?", 
-                                "Try harder",
-                                "Double your effort",
-                                "Don't hate, iterate",
+                                "Every click matters.",
+                                "We are funny bunch after all.",
+                                "Don't hate, iterate.",
                                 "We like you already!",
-                                "We never quit"
+                                "We never quit."
                               ];
                     var xcoords = new Array(50,100,150,200,250,300,350);
                     var x = Math.floor((Math.random()*7));
@@ -141,15 +141,16 @@ permalink: /join/
   
                   function backIt(button) {
                     var tags = [
-                                "It is about problem solving",
-                                "Maybe one more time", 
-                                "Double your effort",
-                                "Almost doesn't count",
-                                "Insist to persist",
+                                "It is about problem solving.",
+                                "Maybe one more time.", 
+                                "Double your effort.",
+                                "Almost doesn't count.",
+                                "Insist to persist.",
                                 "Have you tried with a smile?"
                               ];
                     var xcoords = new Array(100,150,200,250,300);
                     var x = Math.floor((Math.random()*6));
+                    button.style.animation = "shake 0.5s";
                     button.style.left = xcoords[x] + "px";
                     document.getElementById("tags").innerHTML = tags[x];
                   }
