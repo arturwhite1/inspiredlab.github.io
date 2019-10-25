@@ -277,13 +277,6 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 10px 20px;
 }
 
-#feature .btn-move {
-  position: absolute;
-  background: #655E7A;
-  color: #fff;
-  padding: 10px 20px;
-  left: 10px;
-}
 /*--
 	content Start
 --*/

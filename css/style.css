@@ -32,3 +32,23 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+/* Elusive button text */
+
+#feature .btn-move {
+  position: absolute;
+  background: #655E7A;
+  color: #fff;
+  padding: 10px 20px;
+  left: 10px;
+}
+
+/* end elusive */
+
+/* Style for lead team images */
+.labbie {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
