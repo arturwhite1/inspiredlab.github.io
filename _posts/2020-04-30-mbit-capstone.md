@@ -6,19 +6,33 @@ author: "InspirEd Lab"
 meta: "NIU COB OMIS"
 ---
 
-![image](https://user-images.githubusercontent.com/59972338/85423576-78f1d000-b53c-11ea-8c90-82ca0624922a.png)
+![image](https://user-images.githubusercontent.com/59972338/85435660-6df36b80-b54d-11ea-9393-96d434f34261.png)
 ---
 
-### Enhancements:
-Listen to your news out loud from the Amazon Alexa App! Alexa will read highlights of posts currently on the OM&IS Gazette to keep you informed on what’s going on. Set up directions <a href="https://inspiredlab.github.io/omisgazette/ALEXA/">Here</a>
+### Mission:
+The purpose of this project is to both assist the HMB in making their systems more efficient as they grow in size, as well as helping students of the OM&IS department develop technical skills
+necessary to get ahead in their careers through real world experiences.
+
+### The Story Behind the Project:
+This capstone project initiated a partnership between the Department of Operations Management and Information Systems (OM&IS) in the College of Business and the Huskie Marching Band (HMB) where OM&IS students develop and implement technology solutions for the HMB.  We work on decreasing the time spent on administrative processes in order to focus on music and marching by simplifying and centralizing existing processes.
 
 
-### About Alexa:
-Alexa is set up to read 5 news stories in brief mode. When Alexa reads in brief mode, she is only reading the first paragraph of each post. Access the OM&IS gazette with your laptop or mobile device to get all the details! 
+### More About the Innovator:
 
-
-### Having Trouble? 
-Let us know by using the form on our <a href="https://inspiredlab.github.io/omisgazette/about">About</a> page!
+<img src="https://user-images.githubusercontent.com/59972338/85438317-7352b500-b551-11ea-8bc4-ef2083059d44.png" height="100" />
 
 
 
+Eugene Ciesla, Northern Illinois University attendee and Project Owner of the MBIT Capstone Project kickstarted the partnership of InspirED Lab and NIU Marching Band. With his committment, the project continues to run, and improvements continue to be made. 
+
+ "I am unbelievably gratified at the legacy this project will leave for the OM&IS department and for the Huskie Marching Band. This will continue to help students and staff in both groups for years to come" -Eugene Ciesla
+
+
+### Accomplishments:
+-Improvements on audition voting system; We have saved 4.5 hours on these calculations alone.
+
+-Through the Inventory Management System, we have cut the 3 day period of uniform fitting in half.
+
+ -We have developed a team of leaders that will continue to contribute to the project for many years. 
+
+### For More Information: 
