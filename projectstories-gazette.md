@@ -1,4 +1,4 @@
-https://inspiredlab.github.io/omisgazette/assets/images/alexa.jpg
+![image](https://user-images.githubusercontent.com/59972338/85423576-78f1d000-b53c-11ea-8c90-82ca0624922a.png)
 ---
 
 ### Enhancements 
