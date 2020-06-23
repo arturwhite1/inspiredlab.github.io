@@ -1,5 +1,6 @@
 ---
 
+### Enhancements 
 Listen to your news out loud from the Amazon Alexa App! Alexa will read highlights of posts currently on the OM&IS Gazette to keep you informed on what’s going on. Set up directions <a href="https://inspiredlab.github.io/omisgazette/ALEXA/">Here</a>
 
 
