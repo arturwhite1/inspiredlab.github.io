@@ -1,5 +1,9 @@
 ---
 layout: post
+title: "OMIS Gazette Alexa Integration"
+date: 2019-09-09 13:11:27
+author: "InspirEd Lab"
+meta: "NIU COB OMIS"
 ---
 
 ![image](https://user-images.githubusercontent.com/59972338/85423576-78f1d000-b53c-11ea-8c90-82ca0624922a.png)
